@@ -26,7 +26,7 @@ export default function HomePage() {
   return (
     <div className='container flex items-center justify-center m-4 text-black font-Sancreek bg-slate-300'> 
       <div className="grid items-center gap-3 sm:grid-cols-12 sm:grid-rows-12 justify-items-center">
-          <div className="text-4xl sm:col-span-2">MAKE</div>
+
           <div className="text-4xl sm:col-span-2 sm:col-start-2 sm:row-start-2">UNIQUE</div>
           <div className="text-4xl sm:col-span-2 sm:col-start-1 sm:row-start-3">STYLE</div>
           <div className="text-4xl sm:col-span-3 sm:col-start-10 sm:row-start-1">Service</div>
