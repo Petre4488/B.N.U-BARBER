@@ -24,7 +24,7 @@ export const Reveal = ({ children }) => {
 export default function HomePage() {
   return (
     <div className='container flex items-center justify-center m-4 text-black font-Sancreek'
-    style={{ backgroundImage: `url(../../../public/wallpaperhome.jpg )` }}  > 
+    style={{ backgroundImage: `url(../../../public/wallpaperhome.jpg  )` }}  > 
       <div className="grid items-center grid-cols-12 gap-3 grid-rows-12 justify-items-center">
           <div className="col-span-2 text-4xl">MAKE</div>
           <div className="col-span-2 col-start-2 row-start-2 text-4xl">UNIQUE</div>
