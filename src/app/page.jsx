@@ -5,6 +5,7 @@ import { motion, useAnimation, useInView } from 'framer-motion';
 import { useEffect, useRef } from 'react';
 import character from './../../public/character.svg';
 import scissors from './../../public/scissors.svg';
+import wallpaperHero from './../../public/wallpaperHero.jpg';
 
 export const Reveal = ({ children }) => {
   return (
@@ -23,34 +24,33 @@ export const Reveal = ({ children }) => {
 
 export default function HomePage() {
   return (
-    <div className='container flex items-center justify-center m-4 text-black font-Sancreek'
-    style={{ backgroundImage: `url(../../../public/wallpaperhome.jpg  )` }}  > 
-      <div className="grid items-center grid-cols-12 gap-3 grid-rows-12 justify-items-center">
-          <div className="col-span-2 text-4xl">MAKE</div>
-          <div className="col-span-2 col-start-2 row-start-2 text-4xl">UNIQUE</div>
-          <div className="col-span-2 col-start-1 row-start-3 text-4xl">STYLE</div>
-          <div className="col-span-3 col-start-10 row-start-1 text-4xl">Service</div>
-          <div className="col-span-2 col-start-6 row-start-2">B.N.U. BARBER</div>
-          <div className="col-span-4 col-start-5 row-span-5 row-start-3">
+    <div className='container flex items-center justify-center m-4 text-black font-Sancreek bg-slate-300'> 
+      <div className="grid items-center gap-3 sm:grid-cols-12 sm:grid-rows-12 justify-items-center">
+          <div className="text-4xl sm:col-span-2">MAKE</div>
+          <div className="text-4xl sm:col-span-2 sm:col-start-2 sm:row-start-2">UNIQUE</div>
+          <div className="text-4xl sm:col-span-2 sm:col-start-1 sm:row-start-3">STYLE</div>
+          <div className="text-4xl sm:col-span-3 sm:col-start-10 sm:row-start-1">Service</div>
+          <div className="text-3xl sm:col-span-2 sm:col-start-6 sm:row-start-2 place-self-end">B.N.U. BARBER</div>
+          <div className="sm:col-span-4 sm:col-start-5 sm:row-span-5 sm:row-start-3">
             <Image src={character} alt='barber shop' className='w-full' />
           </div>
-          <div className="col-span-2 col-start-2 row-start-5">Grooming tips</div>
-          <div className="col-span-3 col-start-10 row-span-2 row-start-3">
+          <div className="sm:col-span-2 sm:col-start-2 sm:row-start-5">Grooming tips</div>
+          <div className="sm:col-span-3 sm:col-start-10 sm:row-span-2 sm:row-start-3">
             <Image src={scissors} alt='scissors' className='w-3/5'/>
           </div>
-          <div className="col-span-3 col-start-10 row-start-6 p-3 text-4xl border-4 border-dashed border-zinc-600">
+          <div className="p-3 text-4xl border-4 border-dashed sm:col-span-3 sm:col-start-10 sm:row-start-6 border-zinc-600">
             Get in touch!
           </div>
-          <div className="col-span-3 row-span-2 row-start-7">
+          <div className="col-span-3 sm:row-span-2 sm:row-start-7">
             <Image src={scissors} alt='scissors' className='w-3/5'/>
           </div>
           <div className="col-span-4 col-start-9 row-span-3 row-start-9">
             <Image src={scissors} alt='scissors' className='w-3/5'/>
           </div>
-          <div className="col-span-4 col-start-9 p-2 text-3xl border-2 border-dashed row-start-8 border-zinc-600">Transform Yourself</div>
-          <div className="col-start-8 row-span-3 p-2 text-3xl rotate-90 border-2 border-dashed row-start-9 border-zinc-600 whitespace-nowrap">Transform Yourself</div>
-          <div className="col-span-3 col-start-4 row-span-2 text-5xl text-center row-start-9 place-self-end">Unleash your swagger</div>
-          <div className="col-span-3 col-start-4 row-span-2 font-mono text-center place-self-start row-start-11 ">More than cutting hair! Detail and a passion for creating unique style</div>
+          <div className="p-2 text-3xl border-2 border-dashed sm:col-span-4 sm:col-start-9 row-start-8 border-zinc-600">Transform Yourself</div>
+          <div className="p-2 text-3xl rotate-90 border-2 border-dashed sm:col-start-8 sm:row-span-3 row-start-9 border-zinc-600 whitespace-nowrap">Transform Yourself</div>
+          <div className="text-5xl text-center sm:col-span-3 sm:col-start-4 sm:row-span-2 sm:row-start-9 place-self-end">Unleash your swagger</div>
+          <div className="font-mono text-center sm:col-span-3 sm:col-start-4 sm:row-span-2 place-self-start sm:row-start-11 ">More than cutting hair! Detail and a passion for creating unique style</div>
       </div>
     </div>
   );

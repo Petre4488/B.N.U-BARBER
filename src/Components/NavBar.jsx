@@ -6,7 +6,7 @@ import logo from "../../public/logo.png";
 
 export default function ComponentNavBar() {
   return (
-    <Navbar fluid className="w-full mx-2 mb-3 font-Sancreek bg-slate-100" >
+    <Navbar fluid className="w-full mx-2 mb-3 font-Sancreek bg-slate-200" >
       <Navbar.Brand href="" className="px-4 py-1 border-2 border-dashed border-zinc-600" >
         <img src="https://i.imgur.com/AKWuGtP.png" className="pr-2 h-9 sm:h-9" alt="Flowbite React Logo" />
         <span className="text-black">B.N.U. Barber</span>
