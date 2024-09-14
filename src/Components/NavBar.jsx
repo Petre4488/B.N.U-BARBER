@@ -6,23 +6,22 @@ import logo from "../../public/logo.png";
 
 export default function ComponentNavBar() {
   return (
-    <Navbar fluid className="w-full mx-2 mb-3 font-Sancreek bg-slate-200" >
-      <Navbar.Brand href="" className="px-4 py-1 border-2 border-dashed border-zinc-600" >
-        <img src="https://i.imgur.com/AKWuGtP.png" className="pr-2 h-9 sm:h-9" alt="Flowbite React Logo" />
-        <span className="text-black">B.N.U. Barber</span>
+    <Navbar fluid className="w-full mx-2 mb-3 text-white font-Sancreek bg-slate-950" >
+      <Navbar.Brand href="" className="px-4 py-1 border-2 border-dashed border-zinc-200" >
+        <img src="https://i.imgur.com/iG1XO68.png" className="pr-2 h-9 sm:h-9" alt="Flowbite React Logo" />
+        <span className="">B.N.U. Barber</span>
       </Navbar.Brand>
       <div className="flex md:order-2 ">
-        <div className="p-2 px-4 mx-4 text-black border-2 border-dashed border-zinc-600">Contact Us!</div>
+        <div className="p-2 px-4 mx-4 border-2 border-dashed border-zinc-200">Contact Us!</div>
         <Navbar.Toggle />
       </div>
-      <Navbar.Collapse className="p-3 px-4 border-2 border-dashed border-zinc-600">
-        <Navbar.Link href="#" active>
+      <Navbar.Collapse className="p-3 px-4 border-2 border-dashed border-zinc-200">
+        <Navbar.Link href="/" active>
           Home
         </Navbar.Link>
-        <Navbar.Link href="#">Services</Navbar.Link>
-        <Navbar.Link href="#">Location</Navbar.Link>
-        <Navbar.Link href="#">Gallery</Navbar.Link>
-        <Navbar.Link href="#">About</Navbar.Link>
+        <Navbar.Link href="/preturi" className="text-white" >Preturi</Navbar.Link>
+        <Navbar.Link href="/galerie" className="text-white">Galerie</Navbar.Link>
+        <Navbar.Link href="/despre" className="text-white">Despre</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );

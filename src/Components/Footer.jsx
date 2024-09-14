@@ -1,7 +1,7 @@
 
 export default function Footer(){
     return(
-        <footer className="flex flex-col items-center w-full mt-3 text-center border-2 border-dashed text-blac bg-slate-200 border-zinc-600 font-Sancreek">
+        <footer className="flex flex-col items-center w-full mt-3 text-center text-white border-2 border-dashed text-blac bg-slate-950 border-zinc-200 font-Sancreek">
             <div className="container pt-3">
                 <div className="flex justify-center mb-3 space-x-2">
                     <a
@@ -99,7 +99,7 @@ export default function Footer(){
         </div>
     </div>
 
-    <div className="w-full p-4 text-center border-t-2 border-dashed bg-black/5 border-zinc-600">
+    <div className="w-full p-4 text-center border-t-2 border-dashed bg-black/5 border-zinc-200">
         © 2024 
         <a className="pl-3" href="https://maps.app.goo.gl/gkfJmLdKxHkRPjvo9">B.N.U BARBER  Str. Tineretului Nr. 10 Bl. B5 Parter</a>
     </div>
