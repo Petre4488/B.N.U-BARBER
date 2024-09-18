@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.16.8",
+    "@sanity/client": "^6.21.3",
+    "@sanity/image-url": "^1.0.2",
     "@tabler/icons-react": "^3.14.0",
     "b.n.u-barber": "file:",
     "clsx": "^2.1.1",
