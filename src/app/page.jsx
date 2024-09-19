@@ -6,6 +6,7 @@ import Image from "next/image";
 import scissors from "../../public/scissors.svg";
 import HeroHighlight from "../Components/HeroHighlight";
 import FocusCards from "../Components/FocusCards";
+import './globals.css';
 
 export default function LampDemo() {
   return (
