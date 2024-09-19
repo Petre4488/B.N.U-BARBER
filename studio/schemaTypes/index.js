@@ -1,4 +1,5 @@
 // schemas/index.js
 import galleryImage from './galleryImage';
+import gallery from './gallery';
 
-export const schemaTypes = [galleryImage];
+export const schemaTypes = [galleryImage, gallery];
